@@ -5,7 +5,7 @@ parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Ancestral protein reconstruction
 
 ## What is it?
 
