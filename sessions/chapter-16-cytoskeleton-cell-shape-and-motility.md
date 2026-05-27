@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 16 — Cytoskeleton, Cell Shape, and Motility
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 16 — Cytoskeleton, Cell Shape, and Motility
 
 ## Book chapter
 
