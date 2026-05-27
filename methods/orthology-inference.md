@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Orthology Inference
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Orthology Inference
 
 ## What is it?
 
