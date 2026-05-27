@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Evolutionary Cell Biology Reading Group
+description: A forum at the Department of Biology, Lund University, where evolutionary biologists and molecular cell biologists discuss recent advances that help us understand how cellular organization evolves and gives rise to organismal complexity.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://homap.github.io/evolutionary-cell-biology-reading-group
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/homap/evolutionary-cell-biology-reading-group
