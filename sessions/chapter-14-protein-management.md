@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 14 — Protein Management
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 14 — Protein Management
 
 ## Book chapter
 
