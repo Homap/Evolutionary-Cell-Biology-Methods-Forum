@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 6 — Evolution of Cellular Complexity
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 6 — Evolution of Cellular Complexity
 
 ## Book chapter
 
