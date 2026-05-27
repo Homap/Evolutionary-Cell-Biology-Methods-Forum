@@ -35,4 +35,4 @@ Anyone in the department and beyond is welcome. You can join individual sessions
 
 ## Schedule
 
-See the [Schedule]([/Evolutionary-Cell-Biology-Methods-Forum/](https://homap.github.io/Evolutionary-Cell-Biology-Methods-Forum/)schedule.md) page for upcoming meetings.
+See the [Schedule]([/Evolutionary-Cell-Biology-Methods-Forum/](https://homap.github.io/Evolutionary-Cell-Biology-Methods-Forum/schedule.md) page for upcoming meetings.
