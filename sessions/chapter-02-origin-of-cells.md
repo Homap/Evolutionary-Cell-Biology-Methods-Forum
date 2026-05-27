@@ -1,5 +1,5 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 2 — Origin of Cells
 layout: default
 parent: Sessions
 nav_order: X
