@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 24 — Origins of Organismal Complexity
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 24 — Origins of Organismal Complexity
 
 ## Book chapter
 
