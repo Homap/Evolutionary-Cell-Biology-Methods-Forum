@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 18 — Resource Acquisition and Homeostatis
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 18 — Resource Acquisition and Homeostatis
 
 ## Book chapter
 
