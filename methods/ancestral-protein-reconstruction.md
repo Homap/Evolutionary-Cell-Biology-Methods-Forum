@@ -1,5 +1,5 @@
 ---
-title: Method Name
+title: Ancestral protein reconstruction
 layout: default
 parent: Methods Corner
 nav_order: 1
