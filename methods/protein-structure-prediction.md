@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Protein Structure Prediction
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Protein Structure Prediction
 
 ## What is it?
 
