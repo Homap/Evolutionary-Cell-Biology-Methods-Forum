@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Experimental Evolution
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Experimental Evolution
 
 ## What is it?
 
