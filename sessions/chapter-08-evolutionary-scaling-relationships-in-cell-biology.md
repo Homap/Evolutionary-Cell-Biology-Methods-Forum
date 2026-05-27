@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 8 — Evolutionary Scaling Relationships in Cell Biology
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 8 — Evolutionary Scaling Relationships in Cell Biology
 
 ## Book chapter
 
