@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 17 — The Cost of Cellular Features
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 17 — The Cost of Cellular Features
 
 ## Book chapter
 
