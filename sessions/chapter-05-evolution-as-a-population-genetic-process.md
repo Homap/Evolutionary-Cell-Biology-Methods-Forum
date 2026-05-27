@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 5 — Evolution as a Population-Genetic Process
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 5 — Evolution as a Population-Genetic Process
 
 ## Book chapter
 
