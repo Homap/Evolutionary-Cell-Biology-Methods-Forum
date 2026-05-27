@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-![Evolutionary Cell Biology Reading Group banner](assets/images/homepage-banner.png.jpg)
+![Evolutionary Cell Biology Reading Group banner](assets/images/evolcell.jpg)
 
 # Evolutionary Cell Biology Reading Group
 
