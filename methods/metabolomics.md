@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Metabolomics
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Metabolomics
 
 ## What is it?
 
