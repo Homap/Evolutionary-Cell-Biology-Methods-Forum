@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 19 — Enzyme and Metabolic Pathways
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 19 — Enzyme and Metabolic Pathways
 
 ## Book chapter
 
