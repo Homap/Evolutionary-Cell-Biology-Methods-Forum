@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Cell Spatial Profiling
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Cell Spatial Profiling
 
 ## What is it?
 
