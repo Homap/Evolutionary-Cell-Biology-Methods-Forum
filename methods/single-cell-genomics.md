@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Single-Cell Omics
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Single-Cell Omics
 
 ## What is it?
 
