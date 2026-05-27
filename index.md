@@ -14,7 +14,7 @@ A forum at the Department of Biology, Lund University, where evolutionary biolog
 
 The goal of this group is to create an open space for discussing how cellular systems evolve and how modern methods allow us to enrich evolutionary theory with cell molecular biology and at the same time, how to use evolutionary theory for better understanding of cell biological questions.
 
-## What we do
+## What we do?
 
 Each meeting focuses on one major topic from the book and connects it to current cell molecular biology and evolutionary methods, such as:
 
