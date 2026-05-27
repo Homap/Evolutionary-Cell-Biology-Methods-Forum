@@ -4,6 +4,8 @@ layout: home
 nav_order: 1
 ---
 
+![Evolutionary Cell Biology Reading Group banner](assets/images/homepage-banner.png.jpg)
+
 # Evolutionary Cell Biology Reading Group
 
 A forum at the Department of Biology, Lund University, where evolutionary biologists and molecular cell biologists discuss recent advances that help us understand how cellular organization evolves and gives rise to organismal complexity.
