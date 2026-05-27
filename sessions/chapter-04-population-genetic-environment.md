@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 4 — The Population-Genetic Environment
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 4 — The Population-Genetic Environment
 
 ## Book chapter
 
