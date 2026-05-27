@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Cell Lineage Tracing
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Cell Lineage Tracing
 
 ## What is it?
 
