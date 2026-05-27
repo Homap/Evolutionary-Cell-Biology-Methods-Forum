@@ -1,11 +1,11 @@
 ---
-title: Chapter X — Chapter Title
+title: Chapter 9 — Cell Growth and Division
 layout: default
 parent: Sessions
 nav_order: X
 ---
 
-# Chapter X — Chapter Title
+# Chapter 9 — Cell Growth and Division
 
 ## Book chapter
 
