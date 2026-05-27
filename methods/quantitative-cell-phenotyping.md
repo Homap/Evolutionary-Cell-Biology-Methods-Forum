@@ -1,11 +1,11 @@
 ---
-title: Method Name
+title: Quantitative Cell Phenotyping
 layout: default
 parent: Methods Corner
 nav_order: 1
 ---
 
-# Method Name
+# Quantitative Cell Phenotyping
 
 ## What is it?
 
