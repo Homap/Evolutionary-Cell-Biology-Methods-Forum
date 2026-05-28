@@ -8,7 +8,7 @@ nav_order: 1
 
 ![Evolutionary Cell Biology Reading Group banner](https://homap.github.io/Evolutionary-Cell-Biology-Methods-Forum/assets/images/evolcell.jpg)
 
-The ebook is available through Lund University Library (https://academic.oup.com/book/56135?login=true).
+The ebook version of *Evolutionary Cell Biology* is available through [Lund University Library](https://academic.oup.com/book/56135?login=true).
 
 A forum at the Department of Biology, Lund University, where evolutionary biologists and molecular cell biologists discuss recent advances that help us understand how cellular organization evolves and gives rise to organismal complexity.
 
