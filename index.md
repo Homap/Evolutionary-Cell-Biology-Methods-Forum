@@ -31,8 +31,6 @@ Each meeting focuses on one major topic from the book and connects it to current
 
 For each method, we will ask what expertise, infrastructure, facilities, and collaborations would be needed to use it in a research project. The goal is to compile a practical methodology and infrastructure list, including relevant resources at Lund University, elsewhere in Sweden, and internationally. This resource can support anyone at Lund who wants to include these methods in future grant applications.
 
-To be actively involved in the meetings, in each session we also discuss how in our work, each of the concepts and methods discussed could be used, brainstorming ideas for future research grants.
-
 ## Who can join?
 
 Anyone in the department and beyond is welcome. You can join individual sessions without committing to the whole series.
