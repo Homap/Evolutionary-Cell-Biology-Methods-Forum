@@ -27,6 +27,10 @@ Each meeting focuses on one major topic from the book and connects it to current
 - experimental evolution
 - mathematical and computational modeling
 
+**Importantly, we will not only discuss each method conceptually; we will also approach it as if we were writing a grant proposal.**
+
+For each method, we will ask what expertise, infrastructure, facilities, and collaborations would be needed to use it in a research project. The goal is to compile a practical methodology and infrastructure list, including relevant resources at Lund University, elsewhere in Sweden, and internationally. This resource can support anyone at Lund who wants to include these methods in future grant applications.
+
 To be actively involved in the meetings, in each session we also discuss how in our work, each of the concepts and methods discussed could be used, brainstorming ideas for future research grants.
 
 ## Who can join?
