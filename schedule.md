@@ -17,7 +17,7 @@ The challenge is to create a link between the two in each discussion session. Th
 
 | Week | Date - Time | Book chapter / topic | Cell or molecular biology method | Evolutionary or comparative method | Discussion leader |
 |---|---|---|---|---|---|
-| 1 | 3/5/26 - 10:30-12 | Chapter 1 — Evolutionary Cell Biology | [Single-cell image analysis to explore cell-to-cell heterogeneity in isogenic populations](https://www.sciencedirect.com/science/article/pii/S2405471221001964?via%3Dihub) | [Single-cell analysis reveals context-dependent, cell-level selection of mtDNA](https://www.nature.com/articles/s41586-024-07332-0) | Homa |
+| 1 | 3/5/26 - 10:30-12 | [Chapter 1 — Evolutionary Cell Biology](https://academic.oup.com/book/56135/chapter/442806299) | [Single-cell image analysis to explore cell-to-cell heterogeneity in isogenic populations](https://www.sciencedirect.com/science/article/pii/S2405471221001964?via%3Dihub) | [Single-cell analysis reveals context-dependent, cell-level selection of mtDNA](https://www.nature.com/articles/s41586-024-07332-0) | Homa |
 | 2 | TBD | Chapter 2 — The Origin of Cells | Protocell experiments and synthetic minimal-cell systems | Reconstruction of early cellular evolution and LUCA | TBD |
 | 3 | TBD | Chapter 3 — The Major Lines of Descent | Single-cell genomics of uncultured organisms | Deep phylogenomics and tree-of-life reconstruction | TBD |
 | 4 | TBD | Chapter 4 — The Population-Genetic Environment | Genome-wide cellular response profiling | Population-genomic inference | TBD |
