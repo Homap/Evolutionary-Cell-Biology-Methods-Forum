@@ -49,11 +49,10 @@ What selection can achieve is modulated by the relative power of nonadaptive for
 
 ## Possible discussion questions
 Take from summary:
-1. 
-2. 
-3. 
-4. 
-
+1. In which types of evolutionary biology questions would we need an understanding of cell and molecular biology?
+2. In what aspects of your work, understanding cell biology can contribute to the evolutionary question you address?
+3. How can cell biology be integrated with population genetics?
+4. Neutral models in population genetics and molecular evolution are prevalent. Do such models exist for evolution of traits?
 
 ## Cell or molecular biology method theme: Single cell image analysis
 Main conceptual problem: Averaging cells destroys information. A population of genetically identical cells can contain subpopulations with radically different fates — some dividing, some dying, some committing to differentiation — and bulk assays like western blots or bulk RNA-seq report only the mean, flattening all of that variation into a single number. The methods in this paper are all answers to the same question: how do we measure what individual cells are actually doing, and at what scale?
