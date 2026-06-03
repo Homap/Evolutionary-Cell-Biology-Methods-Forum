@@ -55,9 +55,12 @@ Take from summary:
 4. Neutral models in population genetics and molecular evolution are prevalent. Do such models exist for evolution of traits?
 
 ## Cell or molecular biology method theme: Single cell image analysis
+
 Main conceptual problem: Averaging cells destroys information. A population of genetically identical cells can contain subpopulations with radically different fates — some dividing, some dying, some committing to differentiation — and bulk assays like western blots or bulk RNA-seq report only the mean, flattening all of that variation into a single number. The methods in this paper are all answers to the same question: how do we measure what individual cells are actually doing, and at what scale?
 Challenge: Finding methods that are non-destructive and dynamic so we can watch the same cell change state in real time rather than inferring state from a snapshot of a killed population.
+
 The starting point is **fluorescent reporters**. 
+
 The authors showcase a toolkit of **genetically encoded sensors** that convert invisible intracellular states into light signals:the FUCCI system reports cell-cycle position by expressing two differently colored proteins that appear and disappear in opposite phases; kinase translocation reporters (KTRs) convert signaling activity into a nuclear-to-cytoplasmic shift you can see under the microscope; FRET-based probes report ATP levels or redox state in specific organelles.
 
 That real-time observation is only possible with **time-lapse microscopy and lineage tracking**, which the paper treats as the method that most fundamentally changes what you can ask. The clearest demonstration is a yeast experiment tracking six reporters simultaneously through starvation-induced fate decisions: cells either entered meiosis or quiescence, and single-cell analysis revealed that fate was determined before the last cell division, far earlier than anyone had suspected. That result was not accessible to any population-level readout. Lineage tracking also enables microfluidics as a companion technique — chambers that physically retain mother cells while daughters wash away, making it possible to follow rare aging cells through their entire lifespan without losing them in the crowd of young cells.
@@ -83,38 +86,39 @@ The technical innovation: SCI-LITE
 
 Using precise mtDNA base editing (DdCBE) to install either a functionally damaging missense mutation (LHON-associated, complex I subunit MT-ND4) or a matched synonymous silent mutation two base pairs away, they tracked heteroplasmy dynamics over 15 days at single-cell resolution.
 
-The key results, in order of logical argument:
+**The key results, in order of logical argument:**
+
 Cell populations in standard culture actively purge the nonsynonymous (damaging) variant but not the synonymous one — a direct argument against simple drift.
-Cells with high nonsynonymous heteroplasmy grow slower and die more when forced to rely on OXPHOS (galactose medium), confirming the fitness cost is real and mechanistically tied to complex I dysfunction.
-Within individual lineages (tracked via unique ancestry barcodes + SCI-LITE), heteroplasmy stays stable even while the population distribution shifts. This is the critical finding: if intracellular selection were happening, every lineage would show a gradual decline; instead, high-heteroplasmy lineages simply drop out of the population. Selection acts at the cell level, not the mtDNA molecule level.
+Cells with high nonsynonymous heteroplasmy grow slower and die more when forced to rely on OXPHOS (galactose medium), confirming the fitness cost is real and mechanistically tied to complex I dysfunction. Within individual lineages (tracked via unique ancestry barcodes + SCI-LITE), heteroplasmy stays stable even while the population distribution shifts. This is the critical finding: if intracellular selection were happening, every lineage would show a gradual decline; instead, high-heteroplasmy lineages simply drop out of the population. Selection acts at the cell level, not the mtDNA molecule level.
 The sign of selection is environment-dependent. The same truncating complex I mutation that is purged in normoxia or galactose is positively selected in hypoxia or when complex V is inhibited by oligomycin — conditions where losing complex I is actually beneficial. In oligomycin-treated cultures, cells that divided the most ended up with the highest heteroplasmy.
-Why it matters broadly
+
+**Why it matters broadly**
 
 The authors suggest this framework reframes how we think about accumulation of mtDNA mutations in ageing and cancer. The standard assumption is that nonsynonymous mtDNA mutations accumulate because selection is weak. This paper argues instead that some of those mutations may accumulate because the metabolic environment of aged or tumour cells makes them selectively advantageous. The Hürthle cell carcinoma experiment — where introducing the truncating complex I mutation accelerated tumour formation in mice — makes this concrete.
 
 The paper rests on two technical pillars working together: a way to write controlled mutations into mitochondrial DNA, and a way to read heteroplasmy in thousands of individual cells at once. Let me walk through both from scratch.
 
-The problem they needed to solve first: writing mutations into mtDNA
+**The problem they needed to solve first: writing mutations into mtDNA**
 
 Normal gene-editing tools like CRISPR don't work on mitochondrial DNA. Mitochondria have their own small genome (mtDNA), separate from the nuclear genome, and the molecular machinery needed to deliver CRISPR into mitochondria doesn't exist yet. So for years, researchers studying heteroplasmy had to use naturally occurring mutations, which you can't control or pair with a matched silent control.
 
 The authors used a recently developed tool called DdCBE (deaminase-coupled base editor). This is a protein you deliver into the cell (via a plasmid, i.e., a small loop of DNA you transfect into cells). Once inside, DdCBE finds a specific site on the mtDNA and chemically converts one DNA base into another — specifically, it converts a cytosine (C) into a uracil (U), which the cell's own replication machinery then reads as a thymine (T). The result is a point mutation at a precise location, without cutting the DNA. Crucially, this is a base change, not a deletion or insertion, so you can install either a missense mutation (one that changes the amino acid in the resulting protein) or a synonymous/silent mutation (one that changes the DNA sequence but codes for the same amino acid, so the protein is identical).
 
-They used two versions:
+**They used two versions:**
 
 LHON DdCBE: installs a missense mutation in the MT-ND4 gene, a subunit of Complex I of the mitochondrial respiratory chain. This specific mutation is associated with Leber's hereditary optic neuropathy (LHON), a real human disease. The mutation breaks Complex I function.
 SILENT DdCBE: installs a synonymous mutation two base pairs away in the same gene. Same position, same gene, but the protein is unaffected.
 This pair is the experimental heart of the paper. Because the only difference is whether the protein is broken or not, any difference in how the two variants behave in a population must be due to the functional consequence, not some quirk of the DNA sequence itself.
 
-What is heteroplasmy?
+**What is heteroplasmy?**
 
 Each cell contains hundreds to thousands of mtDNA copies. Heteroplasmy simply means that not all copies are identical \ — some are wild-type and some carry the mutation. The heteroplasmy level of a cell is the fraction of its mtDNA copies that carry the mutant version. A cell at 80% heteroplasmy has 80% mutant and 20% wild-type mtDNA. This matters because mitochondrial function only breaks down above a threshold (roughly 60-90% mutant), so a cell at 50% heteroplasmy might function normally while a cell at 90% is severely impaired.
 
-The reading problem: why bulk measurement is misleading
+**The reading problem: why bulk measurement is misleading**
 
 If you take a million cells and extract all their DNA to measure heteroplasmy, you get one number \ — the average across all cells. That average could mean every cell is at exactly 50%, or it could mean half the cells are at 100% mutant and the other half are at 0%. These are biologically completely different situations, but a bulk assay can't distinguish them. This is the same averaging problem that motivated the Mattiazzi Usaj paper you presented earlier.
 
-The new method: SCI-LITE
+**The new method: SCI-LITE**
 
 SCI-LITE (single-cell combinatorial indexing leveraged to interrogate targeted expression) is the tool they built to measure heteroplasmy in thousands of individual cells cheaply and at scale.
 
@@ -122,17 +126,17 @@ The core challenge in single-cell sequencing is: how do you know which DNA or RN
 
 SCI-LITE uses a different strategy called split-pool barcoding, which avoids droplets entirely. The logic is clever: instead of putting cells in separate physical containers, you identify cells by giving them a combination of barcodes across multiple rounds. Here's how it works step by step:
 
-Round 1 (Reverse transcription barcoding): All cells are fixed and permeabilized (their membranes are made porous so reagents can get inside, but the cells stay as individual particles). They are distributed into the wells of a multi-well plate. In each well, a barcoded reverse transcription primer is added, which copies the target RNA (in this case mtRNA encoding MT-ND4) into cDNA and attaches a well-specific barcode (Barcode 1) to every cDNA molecule in that well. All cells are then pooled together again.
+**Round 1 (Reverse transcription barcoding):** All cells are fixed and permeabilized (their membranes are made porous so reagents can get inside, but the cells stay as individual particles). They are distributed into the wells of a multi-well plate. In each well, a barcoded reverse transcription primer is added, which copies the target RNA (in this case mtRNA encoding MT-ND4) into cDNA and attaches a well-specific barcode (Barcode 1) to every cDNA molecule in that well. All cells are then pooled together again.
 
-Round 2 (Ligation barcoding): The pooled cells are redistributed randomly into new wells. In each well, a ligation reaction attaches a second barcode (Barcode 2) plus a unique molecular identifier (UMI — a short random sequence that marks individual molecules so you can count them without double-counting) to all cDNA molecules in that well. Cells are pooled again.
+**Round 2 (Ligation barcoding):** The pooled cells are redistributed randomly into new wells. In each well, a ligation reaction attaches a second barcode (Barcode 2) plus a unique molecular identifier (UMI — a short random sequence that marks individual molecules so you can count them without double-counting) to all cDNA molecules in that well. Cells are pooled again.
 
-Round 3 (PCR and sequencing barcodes): The pooled cells are redistributed into new wells, lysed (broken open), and the cDNA is amplified by PCR. During PCR, two more Illumina sequencing barcodes (Barcodes 3 and 4, the standard indexes used in all Illumina sequencing) are attached.
+**Round 3 (PCR and sequencing barcodes):** The pooled cells are redistributed into new wells, lysed (broken open), and the cDNA is amplified by PCR. During PCR, two more Illumina sequencing barcodes (Barcodes 3 and 4, the standard indexes used in all Illumina sequencing) are attached.
 
 After sequencing, every cDNA molecule has four barcodes. The key insight: the probability that two different cells traversed the same path through all three rounds of redistribution by chance is very low (the paper validates a doublet rate of only 0.8%). So the four-barcode combination serves as a near-unique cell identifier, even though the cells were never physically separated.
 
 A UMI (unique molecular identifier) deserves its own brief explanation: before PCR amplification, every molecule gets tagged with a short random sequence. Since PCR copies the same molecule many times, you'd otherwise count the same original molecule dozens of times. The UMI tells you "these 30 reads all came from one original molecule," so you count it as one. This converts raw read counts into true molecule counts.
 
-How the two tools work together to answer the biological question
+**How the two tools work together to answer the biological question**
 
 With DdCBE they could install precisely controlled mutations at known heteroplasmy levels. With SCI-LITE they could then track each cell's heteroplasmy individually over time \ — not as a population average, but as a distribution across thousands of single cells.
 
