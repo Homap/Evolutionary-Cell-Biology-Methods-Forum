@@ -167,4 +167,8 @@ Methods to track cells
 What kind of cellular measurements tell you what in terms of biology? What traits do you measure and how do you measure them?
 Challenges in nonmodel organisms 
 
+1- every other week meeting
+2- One method paper
+3- Two people per session
+4- Starting first of september
 
