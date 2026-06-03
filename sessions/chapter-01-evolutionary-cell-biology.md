@@ -48,8 +48,7 @@ What selection can achieve is modulated by the relative power of nonadaptive for
 - **Molecular stochasticity**:  Collectively, these features and more (including asymmetries in cell division) lead to substantial stochasticity in cellular composition, even among cells with identical genotypes inhabiting homogenous environments. Natural selection operates on phenotypic variance, and is more efficient when most of the variance is due to genetic differences.
 - Molecular complexes: The number of subunits underlying the same protein can vary across species, but not always in ways that reflect organismal complexity. This weak connection is very unlike the situation in genome evolution, where genome architecture becomes enormously complex in large multicellular species
 
-## Possible discussion questions
-Take from summary:
+### Possible discussion questions
 1. In which types of evolutionary biology questions would we need an understanding of cell and molecular biology?
 2. In what aspects of your work, understanding cell biology can contribute to the evolutionary question you address?
 3. How can cell biology be integrated with population genetics?
@@ -69,6 +68,11 @@ The starting point is **fluorescent reporters**. That real-time observation is o
 **5. High-content screening (HCS) with deep learning — systematic genome-wide phenotyping:** Used automated microscopy to image millions of cells across many genetic perturbations. Segmentation, feature extraction, and deep learning classified phenotypes at scale. The output was genome-wide genotype-to-phenotype maps and detection of abnormal or rare cell states.
 
 Every example follows the same logic. A bulk measurement produces an average that implies a smooth, gradual, or uniform process. Single-cell resolution reveals that the average is hiding discrete states, rare subpopulations, binary switches, or bimodal distributions. The biology is almost always more interesting than the average suggested — and in several cases (HSF1, chromatin regulators) the average was actively misleading.
+
+### Possible discussion questions
+1. Do you see any use of such methods for your own research?
+2. What are the challenges of getting these methods work for non-model organisms?
+3. What sorts of collaborations are required for performing such methods? Given most of these methods are performed in clinical or molecular cell biology labs, how can we build the collaborations we need?
 
 ## Evolutionary or comparative method theme: Single-cell analysis reveals contextdependent, cell-level selection of mtDNA
 The central question is one the field has long debated: when heteroplasmy levels shift in a dividing cell population, is that driven by selection or random drift, and if selection, does it act at the level of cell fitness (whole-cell proliferation advantage) or intracellularly (preferential replication or degradation of mtDNA molecules within a single cell)?
@@ -142,6 +146,10 @@ The critical experiment combined SCI-LITE with lineage barcoding: cells were tra
 This allowed them to ask, within each lineage: **did heteroplasmy change over time?** If intracellular selection were happening (mutant mtDNA molecules replicating faster or being degraded less), every lineage's heteroplasmy would drift downward. What they saw instead was that heteroplasmy was stable within lineages, but lineages with high heteroplasmy simply disappeared from the population. That pattern is the fingerprint of cell-level selection: whole cells with too much mutant mtDNA grow slowly and drop out, while their internal heteroplasmy doesn't change before they do.
 
 **In short: DdCBE gave them clean experimental control over what mutation was present and at what level; SCI-LITE gave them the resolution to see how that mutation was behaving cell-by-cell and lineage-by-lineage over time.**
+
+### Possible discussion questions
+1. In evolutionary ecology, we often rely on natural genetic variation. In this study, the authors created the variations de-novo so they can control the outcome. Do you see any advanatge and limitations with this methods?
+2. The method used here resolves a major challenge: to modify a cell and be able to track its ancestry. Do you think we could use this in our own research?
 
 ## Optional papers or resources
 
