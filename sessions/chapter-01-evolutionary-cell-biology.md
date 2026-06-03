@@ -158,5 +158,13 @@ This allowed them to ask, within each lineage: **did heteroplasmy change over ti
 ## Optional papers or resources
 
 ## Notes from discussion
+Methods to capture state of things
+3. Single-cell methods to capture a snapshot and spatial transcriptomics: For what sorts of eovlutionary questions can you use these information?
+
+Methods to track cells
+1. Methods to track cell lineage: evolutionary question?
+
+What kind of cellular measurements tell you what in terms of biology? What traits do you measure and how do you measure them?
+Challenges in nonmodel organisms 
 
 
